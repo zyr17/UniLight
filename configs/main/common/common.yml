@@ -1,0 +1,5 @@
+cityflow-config: configs/cityflow/syn_1x3.yml
+#cityflow-log: log.txt
+env: CityFlow
+threads: 1
+evaluate-round: 10

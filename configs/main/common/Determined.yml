@@ -1,0 +1,5 @@
+includes:
+  - !include configs/main/common/common.yml
+
+main: Determined
+multi-agent: IndependentDetermined

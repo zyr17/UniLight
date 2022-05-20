@@ -1,0 +1,6 @@
+includes: 
+  - !include configs/main/common/DQNBase.yml
+
+model: DQNNaiveFC
+dueling-dqn: True
+double-dqn: True

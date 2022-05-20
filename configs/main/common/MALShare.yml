@@ -1,0 +1,4 @@
+multi-agent: MALShare
+
+# tell cityflow pad different state and action to same
+cityflow-config-modify: ENV_PADDING=True

@@ -1,0 +1,5 @@
+includes: 
+  - !include configs/main/common/Determined.yml
+
+tensorboardx-comment: Random
+agent: RandomAgent

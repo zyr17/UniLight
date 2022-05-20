@@ -1,0 +1,13 @@
+includes: 
+  - !include configs/main/common/DQNBase.yml
+
+agent: NewModelAgent
+model: NewModel
+dueling-dqn: True
+double-dqn: True
+
+NM-lane-embedding-size: 32
+NM-road-predict-hidden: 32
+NM-scale-by-lane-number: True
+NM-phase-loss-weight: 1
+NM-volume-loss-weight: 1

@@ -1,0 +1,11 @@
+includes: 
+  - !include configs/main/common/wandb.yml
+  - !include configs/main/common/NewModel.yml
+
+multi-agent: NewModelMultiAgent
+tensorboardx-comment: NewModelReplayPhaseLoss
+
+NM-phase-loss-weight: 0.01
+NM-volume-loss-weight: 0.01
+
+NM-phase-loss-with-replay: True
