@@ -40,6 +40,9 @@ compatibility is not guaranteed.
 git clone git@github.com:zyr17/UniLight.git
 cd UniLight && tar zxf data.tgz
 docker run -it --rm -v `pwd`:/code zyr17/unilight
+
+# in docker
+cd /code
 ```
 
 ## Build
@@ -54,11 +57,11 @@ cd UniLight && tar zxf data.tgz && pip install -r requirements.txt
 
 For training:
 ```bash
-cd /code && python main.py --config configs/main/UniLight.yml --cityflow-config configs/cityflow/SH1.yml
+python main.py --config configs/main/UniLight.yml --cityflow-config configs/cityflow/SH1.yml
 ```
 For testing:
 ```bash
-cd /code && python main.py --config configs/main/UniLight.yml --cityflow-config configs/cityflow/SH1.yml --preload-model-file ${PATH_TO_MODEL_PT} --test-round 10
+python main.py --config configs/main/UniLight.yml --cityflow-config configs/cityflow/SH1.yml --preload-model-file ${PATH_TO_MODEL_PT} --test-round 10
 ```
 
 # Details
