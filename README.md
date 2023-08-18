@@ -5,21 +5,26 @@ through Universal Communication Method", which proposes a universal communicatio
 method UniComm between agents.
 
 ```
-@article{DBLP:journals/corr/abs-2204-12190,
-  author    = {Qize Jiang and
-               Minhao Qin and
-               Shengmin Shi and
-               Weiwei Sun and
-               Baihua Zheng},
-  title     = {Multi-Agent Reinforcement Learning for Traffic Signal Control through
-               Universal Communication Method},
-  journal   = {CoRR},
-  volume    = {abs/2204.12190},
-  year      = {2022},
-  url       = {https://doi.org/10.48550/arXiv.2204.12190},
-  doi       = {10.48550/arXiv.2204.12190},
-  eprinttype = {arXiv},
-  eprint    = {2204.12190},
+@inproceedings{DBLP:conf/ijcai/JiangQS0Z22,
+  author       = {Qize Jiang and
+                  Minhao Qin and
+                  Shengmin Shi and
+                  Weiwei Sun and
+                  Baihua Zheng},
+  editor       = {Luc De Raedt},
+  title        = {Multi-Agent Reinforcement Learning for Traffic Signal Control through
+                  Universal Communication Method},
+  booktitle    = {Proceedings of the Thirty-First International Joint Conference on
+                  Artificial Intelligence, {IJCAI} 2022, Vienna, Austria, 23-29 July
+                  2022},
+  pages        = {3854--3860},
+  publisher    = {ijcai.org},
+  year         = {2022},
+  url          = {https://doi.org/10.24963/ijcai.2022/535},
+  doi          = {10.24963/ijcai.2022/535},
+  timestamp    = {Wed, 27 Jul 2022 16:43:00 +0200},
+  biburl       = {https://dblp.org/rec/conf/ijcai/JiangQS0Z22.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
 
