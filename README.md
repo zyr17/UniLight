@@ -32,7 +32,12 @@ method UniComm between agents.
 
 We use [CityFlow](https://github.com/zyr17/CityFlow) as traffic simulator. Note
 it is a forked version of the original CityFlow, which added some functions to 
-calculate some statistics in C++ instead of Python.
+calculate some statistics in C++ instead of Python, also in this version we
+re-implement the calculation method of average travel time, which is more
+precise than the original CityFlow, considering the time passing intersections
+and the very last lane for vehicles. As the result, average travel time 
+reported by this version is longer than the original version, and we do not 
+recommend comparing the results with the results from original Cityflow directly.
 
 We suggest using Docker to run our code. Use the docker image: `zyr17/unlight`.
 Alternatively, you can build an environment by your self. We run our codes on
